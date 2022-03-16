@@ -1,4 +1,4 @@
-## U-Python-100-Days (Updating 75/100)
+## U-Python-100-Days (Updating 1/15)
 Hello guys! This is my Python learning progress from this course. Data Analysis with Pandas and Python
 https://www.udemy.com/course/data-analysis-with-pandas
 
