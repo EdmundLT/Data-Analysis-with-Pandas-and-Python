@@ -51,3 +51,21 @@ pd.Seires(list_1, list_2)
 
 *What will happened when the number of two lists are not same?*
 
+## Series with read.csv() Method
+```
+pd.read_csv('123.csv', usecols=["column1"])
+```
+<img width="538" alt="Screenshot 2022-03-16 at 3 51 05 PM" src="https://user-images.githubusercontent.com/98913678/158677923-607bb71e-0fbd-422f-8ca8-5e3741963fb4.png">
+
+**Squeeze**
+<img width="534" alt="image" src="https://user-images.githubusercontent.com/98913678/158679259-5785706f-9f00-4988-aa93-9138b1ba8e05.png">
+
+## .head() & .tail()
+<img width="275" alt="Screenshot 2022-03-16 at 3 58 35 PM" src="https://user-images.githubusercontent.com/98913678/158679495-eb85bce8-616b-4367-be17-848e8cc0b89f.png">
+
+## .shape
+<img width="248" alt="Screenshot 2022-03-16 at 4 03 44 PM" src="https://user-images.githubusercontent.com/98913678/158680408-1f0f438e-bb43-44e2-854a-16974a1ea35e.png">
+
+
+
+
