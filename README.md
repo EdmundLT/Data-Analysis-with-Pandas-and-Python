@@ -1,4 +1,4 @@
-## Data Analysis with Pandas and Python (Updating 1/12 Sections)
+## Data Analysis with Pandas and Python (Updating 2/12 Sections)
 Hello guys! This is my Python learning progress from this course. Data Analysis with Pandas and Python
 https://www.udemy.com/course/data-analysis-with-pandas
 
