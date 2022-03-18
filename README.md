@@ -2,9 +2,9 @@
 Hello guys! This is my Python learning progress from this course. Data Analysis with Pandas and Python
 https://www.udemy.com/course/data-analysis-with-pandas
 
-## Courses:
+## Course Sections:
 
-1. Sections
+1. Series
 2. DataFrames
 
 ## Important!!
