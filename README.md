@@ -5,7 +5,8 @@ https://www.udemy.com/course/data-analysis-with-pandas
 ## Course Sections:
 
 1. Series
-2. DataFrames
+2. DataFrames - Introdcution
+3. DataFrames - Filtering Data
 
 ## Important!!
 As a newbie in this industry, my purpose is sharing my personal exp with you, commit it everyday as much as possible. So it feel free to clone this res. If you have any questions or suggestion, really feel free to tell me!
