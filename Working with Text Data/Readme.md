@@ -1,66 +1,31 @@
-import pandas as pd
-chicago = pd.read_csv("chicago.csv")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
 ## Common String Methods - .lower( ), .upper( ), .title( ) and .len( )
-chicago = pd.read_csv("chicago.csv")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
-chicago.Name.str.lower()
-chicago.Name.str.title()
-chicago["Position Title"] = chicago["Position Title"].str.title()
+
+![Screen Shot 2022-03-25 at 9 04 34 PM](https://user-images.githubusercontent.com/98913678/160218507-4a60f62f-f8a6-4dcd-8b2e-09b7455a9737.png)
+
 ## The .str.replace( ) Method
-chicago = pd.read_csv("chicago.csv").dropna(how="all")
-chicago.Department = chicago.Department.astype("category")
-chicago.tail(3)
-chicago.Department.str.replace("MGMNT", "Management")
-chicago.Department = chicago.Department.str.title()
-chicago.head(3)
-chicago["Employee Annual Salary"] = chicago["Employee Annual Salary"].str.replace("$", "").astype(float)
-chicago["Employee Annual Salary"].mean()
+
+![Screen Shot 2022-03-25 at 9 04 55 PM](https://user-images.githubusercontent.com/98913678/160218518-81ff4355-1cc9-4555-b752-17b8b5321213.png)
+
+
+
+
 ## Filtering with String Methods
-chicago = pd.read_csv("chicago.csv").dropna(how="all")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
-mask = chicago["Position Title"].str.contains("water")
-chicago[mask]
-mask = chicago["Position Title"].str.startswith("water")
-chicago[mask]
-mask = chicago["Position Title"].str.endswith("ist")
-chicago[mask]
-## More String Methods - .strip( ), .lstrip( ), and .rstrip( )
-chicago = pd.read_csv("chicago.csv").dropna(how="all")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
-chicago.Name.str.strip()
+
+![Screen Shot 2022-03-25 at 9 05 08 PM](https://user-images.githubusercontent.com/98913678/160218524-d801641e-f61a-45cd-b94c-44c9711e2f68.png)
+![Screen Shot 2022-03-25 at 9 05 17 PM](https://user-images.githubusercontent.com/98913678/160218529-1d56aee5-7be1-4547-8aed-42a76dfdba58.png)
+
+
 ## String Methods on Index and Columns
-chicago = pd.read_csv("chicago.csv", index_col="Name").dropna(how="all")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
-chicago.index = chicago.index.str.strip().str.title()
-chicago.head(3)
-chicago.columns=chicago.columns.str.upper()
-chicago.head(3)
-chicago = pd.read_csv("chicago.csv").dropna(how="all")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
-chicago.Name.str.split(",")
-chicago.Name.str.split(",").str.get(0)
-chicago.Name.str.split(",").str.get(0).value_counts()
-chicago["Position Title"].str.split(" ").str.get(0).str.title().value_counts()
-chicago = pd.read_csv("chicago.csv").dropna(how="all")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
 
-chicago.Name.str.split(",").str.get(1).str.strip().str.split(" ").str.get(0).value_counts()
+![Screen Shot 2022-03-25 at 9 05 30 PM](https://user-images.githubusercontent.com/98913678/160218540-66ed9bd0-6403-4208-ac03-abe374190015.png)
+
+![Screen Shot 2022-03-25 at 9 06 09 PM](https://user-images.githubusercontent.com/98913678/160218560-9e7c49df-a8c0-48cd-b75d-8d989a879d30.png)
+
+
+
 ## expand and n Parameters with .split( ) Methods
-chicago = pd.read_csv("chicago.csv").dropna(how="all")
-chicago.Department = chicago.Department.astype("category")
-chicago.head(3)
-chicago[["First Name", "Last name"]] = chicago.Name.str.split(",", expand=True)
-chicago.head()
-chicago[["First Title Word", "Last Title Word"]] = chicago["Position Title"].str.split(" ", expand=True, n=1)
-chicago.head(3)
+
+![Screen Shot 2022-03-25 at 9 06 18 PM](https://user-images.githubusercontent.com/98913678/160218566-d6ef52e4-5dd9-4062-a78f-6aca71e9f4ff.png)
 
 
 
@@ -78,3 +43,4 @@ chicago.head(3)
 
 
 
+![Screen Shot 2022-03-25 at 9 05 56 PM](https://user-images.githubusercontent.com/98913678/160218554-fc420c6a-2cc7-4190-af91-5bfffa8f9432.png)
