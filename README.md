@@ -13,6 +13,7 @@ https://www.udemy.com/course/data-analysis-with-pandas
 7. Working with Text Data
 8. Datetime
 9. Input and Output
+10. Visualization
 
 ## Important!!
 As a newbie in this industry, my purpose is sharing my personal exp with you, commit it everyday as much as possible. So it feel free to clone this res. If you have any questions or suggestion, really feel free to tell me!
